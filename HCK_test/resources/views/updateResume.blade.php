@@ -2,7 +2,7 @@
 
 @section('content')
 <h1>Resume</h1>
-<form action="{{ route('update_resume_submit', $resume->id) }}" method="post">
+<form action="{{ route('update_resume_submit', $resume->id) }}" class="container" method="post">
   @csrf
   <div class="form-group">
     <label for="name">Name:</label>

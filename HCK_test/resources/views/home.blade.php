@@ -21,6 +21,6 @@
     </div>
 </div>
 <div class="container">
-  <a href="{{ route('showUser') }}"><button type="button" class="">Private Office</button></a>
+  <a href="{{ route('showUser') }}"><button type="button" class="btn btn-primary">Private Office</button></a>
 </div>
 @endsection

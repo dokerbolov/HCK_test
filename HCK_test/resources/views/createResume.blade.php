@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-  <h1>Resume</h1>
-  <form action="{{ route('resume_form') }}" method="post">
+  <form action="{{ route('resume_form') }}" class="container" method="post">
+    <h1>Resume</h1>
     @csrf
     <div class="form-group">
       <label for="name">Name:</label>

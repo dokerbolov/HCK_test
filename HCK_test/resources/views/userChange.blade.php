@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<form action="{{ route('update_user_data') }}" method="post">
+<form action="{{ route('update_user_data') }}" class="container" method="post">
   @csrf
   <div class="form-group">
     <label for="name">Name:</label>
